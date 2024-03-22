@@ -2,8 +2,8 @@ Aidan Younathan
 Social Media Dashboard
 03/21/24
 Description: I recreated a design that was given to me to the best of my abilities
-Peer Reviewer:
-Peer Review:
+Peer Reviewer: Jerrod Packard
+Peer Review: The site looks pretty good! I like how you made the text change from Light Mode to Dark Mode on the toggle switch, that's a nice touch. Your colors and spacing look great on desktop and on mobile. The toggle switch isn't quite right though, it's missing the custom gradient background. And it isn't spaced right on mobile. I see you are also missing the hr line at the top on the mobile view. Some of the text sizes seem a little too big and they shouldn't all be bolded, like the usernames and the FOLLOWERS text on the top 4 cards, along with the captions for the bottom cards like Page Views and Likes. I think the text for the green and red letters on all of the cards is supposed to be bold. These are minor differences though and should be quick fixes. Overall, nice work as always Aidan!
 
 # Getting Started with Create React App
 
