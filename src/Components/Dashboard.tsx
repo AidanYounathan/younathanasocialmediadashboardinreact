@@ -29,17 +29,10 @@ const Dashboard = () => {
 
     if (switch1 === false) {
 
-      // setHeadText('darkHeadText');
-      // setToggleBtn('darkToggleBtn');
-      // setCard('darkCard');
-      // setHr('hrDark');
+      
       document.body.style.backgroundColor = '#1E202A';
     } else {
-
-      // setHeadText('lightHeadText');
-      // setToggleBtn('lightToggleBtn');
-      // setCard('lightCard');
-      // setHr('hrLight');
+      
       document.body.style.backgroundColor = '#FFFFFF';
     }
 
@@ -76,9 +69,12 @@ const Dashboard = () => {
                   <div className="my-auto">
 
                   </div>
-                  <div className="flex" onClick={toggleTheme}>
+                  <div className="flex" >
                     <span className='dark:text-[#8b97c6;] mr-2 dark:hover:text-white'>{switch1 ? "Light Mode" : "Dark Mode"}</span>
-                    <ToggleSwitch className=' toggleClass' checked={switch1} onChange={setSwitch1} />
+                    <div onClick={toggleTheme}>
+                      <ToggleSwitch className=' toggleClass'checked={switch1} onChange={setSwitch1} />
+                    </div>
+                    
                   </div>
 
                 </div>
